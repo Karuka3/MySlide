@@ -5,7 +5,7 @@
 ---
 
 ## Slide URL
-- http://karuka3.github.io/Myslide/index.html?slide=IgarashiSeminar/bert.md
+- http://Karuka3.github.io/MySlide/index.html?slide=IgarashiSeminar/bert.md
 
 ---
 
