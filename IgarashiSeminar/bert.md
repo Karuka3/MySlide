@@ -1,15 +1,77 @@
-# Slide1 Title
+# BERT:Pre-training of Deep Bidirectional Transformers for Language Understanding
 
-汎言語分散表現BERTモデル
-
----
-
-## Slide URL
-- http://Karuka3.github.io/MySlide/index.html?slide=IgarashiSeminar/bert.md
+汎用言語表現モデル　BERTの紹介
 
 ---
 
-## Lists
+## Introduction
+### 論文概要
+昨年度の10月にGoogleから発表されたばかりで、かつ2019年2月に自然言語処理のトップカンファレンスである「NAACL-HLT 2019」に採択された論文
+
+最近の自然言語処理の目まぐるしい発展に大きく寄与しているだけでなく、オープンソース化されているので自分たちでも実際に使うことのできるモデルを紹介しており、今後の応用が期待されている
+
+--
+
+### 論文紹介のモチベーション
+マーケティングの分野でも、様々な自然言語処理のタスクが存在する
+
+論文の重要なポイントやマーケティングでのタスクにおいてどのように応用できそうかということを検討・紹介
+
+--
+
+データの統計的処理方法
+
+- 画像処理・・・ピクセル
+- 音声処理・・・音声信号
+
+--
+
+自然言語処理の場合は？？
+
+--
+### 自然言語処理はタスクごとに異なる
+テキスト文に対して、
+
+- 情報抽出・・・Bag of words（単語の集合）
+- 機械翻訳・・・係り受け解析、品詞解析
+
+--
+
+統計的自然言語処理
+テキストのどのような<span font-color = "white">特徴量</span>を使って表現するかの選択が重要
+
+--
+
+### 事前学習（Pre-training）
+
+従来・・・n-gram(単語の組み合わせ)を使用
+
+しかし、組み合わせが膨大でデータ数が足りない！！
+
+--
+
+「表現学習」・・・有効な特徴の組み合わせを機械学習を用いて自動的に学習させる
+
+--
+
+「事前学習」・・・様々なタスクへの応用を前提とした表現学習をしたもの
+
+ディープラーニングの登場により、より複雑な特徴量を抽出でき、大規模なデータにかけることにより、汎用性も獲得
+
+--
+
+自然言語処理では、特徴の出現がスパースになりやすい
+⇒ 事前学習の重要性が増大
+
+--
+
+あるタスク（感情分析など）を解くのに必要な特徴が、入力として与えるデータに現れない場合もあるが、事前学習させたモデルを使えば補完することが可能
+
+--
+
+---
+
+## 汎用言語モデル　「BERT」
 
 - List1
 - List2
@@ -27,18 +89,6 @@
 
 ---
 
-## code
-
-```java
-public class HelloWorld {
-  public static void main(String[] args) {
-      System.out.println("Hello World!");
-  }
-}
-```
-
----
-
 ## image1 img1.jpg
 
 ![image](img1.jpg)
@@ -51,9 +101,8 @@ public class HelloWorld {
 
 ---
 
-## image3 absolute path
+## This Slide URL
 
-![image](http://yamap55.github.io/Slide/20170827/img1.jpg)
-
+- http://Karuka3.github.io/MySlide/index.html?slide=IgarashiSeminar/bert.md
 ---
 
