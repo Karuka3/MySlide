@@ -227,14 +227,3 @@ and Ilya Sutskever. Improving language understanding with unsupervised learning.
 4. https://ishitonton.hatenablog.com/entry/2018/11/25/200332
 
 ---
-
-## This Slide URL
-
-- http://Karuka3.github.io/MySlide/index.html?slide=IgarashiSeminar/bert.md
-
-### 論文概要
-昨年度の10月にGoogleから発表されたばかりで、かつ2019年2月に自然言語処理のトップカンファレンスである「NAACL-HLT 2019」に採択された論文を紹介
-
-最近の自然言語処理の目まぐるしい発展に大きく寄与しているだけでなく、オープンソース化されているので自分たちでも実際に使うことのできるモデルを紹介しており、今後の応用が期待されている
-
----
